@@ -4,3 +4,46 @@ Tue Jun 04 2024 16:42:25 GMT-0500 (Central Daylight Time)
 
 Couldn't execute script C:\Users\juice\Documents\export.sh
 
+----------
+
+Tue Jun 04 2024 16:50:23 GMT-0500 (Central Daylight Time)
+
+warning: in the working copy of 'assets/bootstrap/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Tue Jun 04 2024 16:50:23 GMT-0500 (Central Daylight Time)
+
+warning: in the working copy of 'assets/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Tue Jun 04 2024 16:50:23 GMT-0500 (Central Daylight Time)
+
+warning: in the working copy of 'assets/css/leaflet.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Tue Jun 04 2024 16:50:23 GMT-0500 (Central Daylight Time)
+
+warning: in the working copy of 'assets/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Tue Jun 04 2024 16:50:23 GMT-0500 (Central Daylight Time)
+
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Tue Jun 04 2024 16:50:42 GMT-0500 (Central Daylight Time)
+
+To https://github.com/BrooksStuff/BrooksStuff.github.io.git
+   f759be6..9e8b659  main -> main
+
+

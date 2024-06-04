@@ -301,7 +301,7 @@ svg.leaflet-zoom-animated {
 }
 
 .leaflet-zoom-box {
-  border: 2px dotted #38f;
+  border: 0px dotted #38f;
   background: rgba(255,255,255,0.5);
 }
 
