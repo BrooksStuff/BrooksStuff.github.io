@@ -10,20 +10,36 @@ const map = L.map('mapid').setView([31.2564, -91.9613], 7);
 
 //icon definitions
 
-    var FountainebleauRuins = L.icon({
-        iconUrl: 'FountainebleauBrickFactoryRuins.png',
-    
-        iconSize:     [38, 95], // size of the icon
-        shadowSize:   [0, 0], // size of the shadow
-        iconAnchor:   [30.337159, -90.038018], // point of the icon which will correspond to marker's location
-        popupAnchor:  [30.337159, -90.038018] // point from which the popup should open relative to the iconAnchor
+    var FirstStCharlesIcon5min = L.icon({
+    iconUrl: 'FirstAndStCharles.png',
+
+    iconSize:     [100, 100], // size of the icon
     });
 
-L.marker([30.337159, -90.038018],{icon:FountainebleauRuins}).addTo(map)
+    var FountainebleauRuinsIcon5min = L.icon({
+        iconUrl: 'FountainebleauBrickFactoryRuins.png',
+    
+        iconSize:     [100, 100], // size of the icon
+    });
+        
+    var AlligatorMarshIcon5min = L.icon({
+        iconUrl: 'AlligatorMarsh.png',
+    
+        iconSize:     [100, 100], // size of the icon
+    });
+        
+
+
+
+
+
+
+//marker definitions
+L.marker([30.337159, -90.038018],{icon:FountainebleauRuinsIcon5min}).addTo(map)
     .bindPopup('Marigny/Fountainebleau Sugar Mill Ruins')
     .openPopup();
 
-L.marker([30.333147, -90.039685]).addTo(map)
+L.marker([30.333147, -90.039685],{icon:AlligatorMarshIcon5min}).addTo(map)
     .bindPopup('Alligator Marsh Boardwalk')
     .openPopup();
 
@@ -35,7 +51,7 @@ L.marker([30.268734, -89.955868]).addTo(map)
     .bindPopup('Big Branch NWR Boat Launch')
     .openPopup();
 
-L.marker([29.932598, -90.082792]).addTo(map)
+L.marker([29.932598, -90.082792],{icon:FirstStCharlesIcon5min}).addTo(map)
     .bindPopup('First Street and St. Charles Ave Streetcar Stop')
     .openPopup();
 
