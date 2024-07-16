@@ -413,3 +413,40 @@ To https://github.com/BrooksStuff/BrooksStuff.github.io.git
    018ed0e..5e2a536  main -> main
 
 
+----------
+
+Tue Jul 16 2024 18:42:34 GMT-0500 (Central Daylight Time)
+
+warning: in the working copy of 'assets/bootstrap/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Tue Jul 16 2024 18:42:34 GMT-0500 (Central Daylight Time)
+
+warning: in the working copy of 'assets/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/css/bs-theme-overrides.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/css/leaflet.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Tue Jul 16 2024 18:42:34 GMT-0500 (Central Daylight Time)
+
+warning: in the working copy of 'assets/css/styles.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Tue Jul 16 2024 18:42:34 GMT-0500 (Central Daylight Time)
+
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Tue Jul 16 2024 18:42:36 GMT-0500 (Central Daylight Time)
+
+Everything up-to-date
+
+
