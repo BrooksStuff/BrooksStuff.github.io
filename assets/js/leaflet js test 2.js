@@ -8,26 +8,52 @@ const map = L.map('mapid').setView([31.2564, -91.9613], 7);
         attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>', 
     }).addTo(map);
 
-//icon definitions
 
-    var FirstStCharlesIcon5min = L.icon({
-    iconUrl: 'FirstAndStCharles.png',
+
+
+
+
+
+//icon definitions
+var FountainebleauRuinsIcon5min = L.icon({
+    iconUrl: 'FountainebleauBrickFactoryRuins5min.png',
 
     iconSize:     [100, 100], // size of the icon
-    });
+});
 
-    var FountainebleauRuinsIcon5min = L.icon({
-        iconUrl: 'FountainebleauBrickFactoryRuins.png',
-    
-        iconSize:     [100, 100], // size of the icon
-    });
+var AlligatorMarshIcon5min = L.icon({
+    iconUrl: 'AlligatorMarsh5min.png',
+
+    iconSize:     [100, 100], // size of the icon
+});
+
+var BayouLibertyRuinsIcon5min = L.icon({
+    iconUrl: 'BayouLibertyRuins5min.png',
+
+    iconSize:     [100, 100], // size of the icon
+});
+
+var BigBranchNWRIcon5min = L.icon({
+    iconUrl: 'BigBranchNWRIcon5min.png',
+
+    iconSize:     [100, 100], // size of the icon
+});
+
+var FirstStCharlesIcon5min = L.icon({
+    iconUrl: 'FirstAndStCharles5min.png',
+
+    iconSize:     [100, 100], // size of the icon
+});
+
+var MulattoBendCemetery5min = L.icon({
+    iconUrl: 'MulattoBendCemetery5min.png',
+
+    iconSize:     [100, 100], // size of the icon
+});
+
+
         
-    var AlligatorMarshIcon5min = L.icon({
-        iconUrl: 'AlligatorMarsh.png',
     
-        iconSize:     [100, 100], // size of the icon
-    });
-        
 
 
 
@@ -43,11 +69,11 @@ L.marker([30.333147, -90.039685],{icon:AlligatorMarshIcon5min}).addTo(map)
     .bindPopup('Alligator Marsh Boardwalk')
     .openPopup();
 
-L.marker([30.292726, -89.826879]).addTo(map)
+L.marker([30.292726, -89.826879],{icon:BayouLibertyRuins5min}).addTo(map)
     .bindPopup('Bayou Liberty Ruins')
     .openPopup();
 
-L.marker([30.268734, -89.955868]).addTo(map)
+L.marker([30.268734, -89.955868],{icon:BigBranchNWRIcon5min}).addTo(map)
     .bindPopup('Big Branch NWR Boat Launch')
     .openPopup();
 
@@ -55,7 +81,7 @@ L.marker([29.932598, -90.082792],{icon:FirstStCharlesIcon5min}).addTo(map)
     .bindPopup('First Street and St. Charles Ave Streetcar Stop')
     .openPopup();
 
-L.marker([30.503109, -91.228009]).addTo(map)
+L.marker([30.503109, -91.228009],{icon:MulattoBendCemetery5min}).addTo(map)
     .bindPopup('Mulatto Bend Cemetery')
     .openPopup();
 
