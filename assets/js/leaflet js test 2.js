@@ -45,18 +45,71 @@ var FirstStCharlesIcon5min = L.icon({
     iconSize:     [100, 100], // size of the icon
 });
 
-var MulattoBendCemetery5min = L.icon({
+var MulattoBendCemeteryIcon5min = L.icon({
     iconUrl: 'MulattoBendCemetery5min.png',
 
     iconSize:     [100, 100], // size of the icon
 });
 
+var AlmaCemeteryIcon5min = L.icon({
+    iconUrl: 'AlmaCemetery5min.png',
 
+    iconSize:     [100, 100], // size of the icon
+});
+
+var BucktownBirdNestIcon5min = L.icon({
+    iconUrl: 'BucktownBirdNest5min.png',
+
+    iconSize:     [100, 100], // size of the icon
+});
+
+var CityParkAirfieldIcon5min = L.icon({
+    iconUrl: 'CityParkAirfield5min.png',
+
+    iconSize:     [100, 100], // size of the icon
+});
+       
+var CouturieForestTrailIcon5min = L.icon({
+    iconUrl: 'CouturieForestTrail5min.png',
+
+    iconSize:     [100, 100], // size of the icon
+});
         
-    
+var PumpingStation1Icon5min = L.icon({
+    iconUrl: 'PumpingStation1_5min.png',
 
+    iconSize:     [100, 100], // size of the icon
+});    
 
+var ChalmetteWetlandIcon5min = L.icon({
+    iconUrl: 'ChalmetteWetland5min.png',
 
+    iconSize:     [100, 100], // size of the icon
+});  
+
+var JacksonSquareIcon5min = L.icon({
+    iconUrl: 'JacksonSquare5min.png',
+
+    iconSize:     [100, 100], // size of the icon
+});  
+
+var BrassBandIcon5min = L.icon({
+    iconUrl: 'BrassBand5min.png',
+
+    iconSize:     [100, 100], // size of the icon
+});  
+
+var BourbonStAnneIcon5min = L.icon({
+    iconUrl: 'BourbonStAnne5min.png',
+
+    iconSize:     [100, 100], // size of the icon
+});  
+
+var BourbonToulouseIcon5min = L.icon({
+    iconUrl: 'BourbonToulouse5min.png',
+
+    iconSize:     [100, 100], // size of the icon
+});  
 
 
 
@@ -69,7 +122,7 @@ L.marker([30.333147, -90.039685],{icon:AlligatorMarshIcon5min}).addTo(map)
     .bindPopup('Alligator Marsh Boardwalk')
     .openPopup();
 
-L.marker([30.292726, -89.826879],{icon:BayouLibertyRuins5min}).addTo(map)
+L.marker([30.292726, -89.826879],{icon:BayouLibertyRuinsIcon5min}).addTo(map)
     .bindPopup('Bayou Liberty Ruins')
     .openPopup();
 
@@ -81,46 +134,46 @@ L.marker([29.932598, -90.082792],{icon:FirstStCharlesIcon5min}).addTo(map)
     .bindPopup('First Street and St. Charles Ave Streetcar Stop')
     .openPopup();
 
-L.marker([30.503109, -91.228009],{icon:MulattoBendCemetery5min}).addTo(map)
+L.marker([30.503109, -91.228009],{icon:MulattoBendCemeteryIcon5min}).addTo(map)
     .bindPopup('Mulatto Bend Cemetery')
     .openPopup();
 
-L.marker([30.597367, -91.383419]).addTo(map)
+L.marker([30.597367, -91.383419],{icon:AlmaCemeteryIcon5min}).addTo(map)
     .bindPopup('Alma Cemetery')
     .openPopup();
 
-L.marker([30.021323, -90.126837]).addTo(map)
+L.marker([30.021323, -90.126837],{icon:BucktownBirdNestIcon5min}).addTo(map)
     .bindPopup('Bucktown Bird Nest')
     .openPopup();
 
-L.marker([30.004078,-90.092503]).addTo(map)
+L.marker([30.004078,-90.092503],{icon:CityParkAirfieldIcon5min}).addTo(map)
     .bindPopup('City Park Model Airfield')
     .openPopup();
 
-L.marker([30.007084,-90.091961]).addTo(map)
-    .bindPopup('City Park Lake Isthmus')
+L.marker([30.007084,-90.091961],{icon:CouturieForestTrailIcon5min}).addTo(map)
+    .bindPopup('Couturie Forest Trail')
     .openPopup();
 
-L.marker([29.965956, -89.975911]).addTo(map)
+L.marker([29.965956, -89.975911],{icon:PumpingStation1Icon5min}).addTo(map)
     .bindPopup('St. Bernard Parish Drainage Pumping Station')
     .openPopup();
 
-L.marker([29.965956, -89.975911]).addTo(map)
+L.marker([29.965956, -89.975911],{icon:ChalmetteWetlandIcon5min}).addTo(map)
     .bindPopup('Chalmette Wetland')
     .openPopup();
 
-L.marker([29.957158, -90.063308]).addTo(map)
+L.marker([29.957158, -90.063308],{icon:JacksonSquareIcon5min}).addTo(map)
     .bindPopup('Jackson Square')
     .openPopup();
 
-L.marker([29.957958, -90.064905]).addTo(map)
+L.marker([29.957958, -90.064905],{icon:BrassBandIcon5min}).addTo(map)
     .bindPopup('Brass Band at the Corner of Royal Street and St. Peter Street')
     .openPopup();
 
-L.marker([29.959421, -90.064883]).addTo(map)
+L.marker([29.959421, -90.064883],{icon:BourbonStAnneIcon5min}).addTo(map)
     .bindPopup('Bourbon Street and St. Anne Street')
     .openPopup();
 
-L.marker([29.958274, -90.065975]).addTo(map)
+L.marker([29.958274, -90.065975],{icon:BourbonToulouseIcon5min}).addTo(map)
     .bindPopup('Bourbon Street')
     .openPopup();
