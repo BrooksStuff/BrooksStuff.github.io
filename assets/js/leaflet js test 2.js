@@ -2,13 +2,24 @@ const map = L.map('mapid').setView([31.2564, -91.9613], 7);
     
     //tile location specification
 
-    L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.png', {
-    minZoom: 7,
-    maxZoom: 18,
-    attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
-}).addTo(map);
+    L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+        minZoom: 7,
+        maxZoom: 18,
+        attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>', 
+    }).addTo(map);
 
-L.marker([30.337159, -90.038018]).addTo(map)
+//icon definitions
+
+    var FountainebleauRuins = L.icon({
+        iconUrl: 'FountainebleauBrickFactoryRuins.png',
+    
+        iconSize:     [38, 95], // size of the icon
+        shadowSize:   [0, 0], // size of the shadow
+        iconAnchor:   [30.337159, -90.038018], // point of the icon which will correspond to marker's location
+        popupAnchor:  [30.337159, -90.038018] // point from which the popup should open relative to the iconAnchor
+    });
+
+L.marker([30.337159, -90.038018],{icon:FountainebleauRuins}).addTo(map)
     .bindPopup('Marigny/Fountainebleau Sugar Mill Ruins')
     .openPopup();
 
