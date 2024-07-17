@@ -19,96 +19,112 @@ var FountainebleauRuinsIcon5min = L.icon({
     iconUrl: 'FountainebleauBrickFactoryRuins5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });
 
 var AlligatorMarshIcon5min = L.icon({
     iconUrl: 'AlligatorMarsh5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });
 
 var BayouLibertyRuinsIcon5min = L.icon({
     iconUrl: 'BayouLibertyRuins5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });
 
 var BigBranchNWRIcon5min = L.icon({
     iconUrl: 'BigBranchNWRIcon5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });
 
 var FirstStCharlesIcon5min = L.icon({
     iconUrl: 'FirstAndStCharles5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });
 
 var MulattoBendCemeteryIcon5min = L.icon({
     iconUrl: 'MulattoBendCemetery5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });
 
 var AlmaCemeteryIcon5min = L.icon({
     iconUrl: 'AlmaCemetery5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });
 
 var BucktownBirdNestIcon5min = L.icon({
     iconUrl: 'BucktownBirdNest5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });
 
 var CityParkAirfieldIcon5min = L.icon({
     iconUrl: 'CityParkAirfield5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });
        
 var CouturieForestTrailIcon5min = L.icon({
     iconUrl: 'CouturieForestTrail5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });
         
 var PumpingStation1Icon5min = L.icon({
     iconUrl: 'PumpingStation1_5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });    
 
 var ChalmetteWetlandIcon5min = L.icon({
     iconUrl: 'ChalmetteWetland5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });  
 
 var JacksonSquareIcon5min = L.icon({
     iconUrl: 'JacksonSquare5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });  
 
 var BrassBandIcon5min = L.icon({
     iconUrl: 'BrassBand5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });  
 
 var BourbonStAnneIcon5min = L.icon({
     iconUrl: 'BourbonStAnne5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });  
 
 var BourbonToulouseIcon5min = L.icon({
     iconUrl: 'BourbonToulouse5min.png',
 
     iconSize:     [100, 100], // size of the icon
+    popupAnchor:     [0, -50], // origin of popup
 });  
 
 
